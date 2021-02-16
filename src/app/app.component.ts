@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rive-test-project';
+  width = 717;
+  height = 766;
 }

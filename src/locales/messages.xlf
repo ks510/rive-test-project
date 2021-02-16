@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="be0c60bd0a60ee7ca35c6c61040d783aa9c6e2aa" datatype="html">
+        <source>Willkommen in Karen&apos;s Welt!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Title</note>
+      </trans-unit>
+      <trans-unit id="64c564185e81516807b99395165b715c95ade0aa" datatype="html">
+        <source>Hallo, ich heiße Karen. Ich mag Apfelsaft und Orangensaft.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Introduction</note>
+      </trans-unit>
+      <trans-unit id="118a664f7e3444f3be72e89feb75f9e3873b35fe" datatype="html">
+        <source>Ich liebe Chris Waschbär ❤️</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Love</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

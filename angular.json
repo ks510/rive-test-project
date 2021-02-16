@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "rive-test-project": {
+      "i18n": {
+        "sourceLocale": "de",
+        "locales": {
+          "en": "src/locales/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -34,6 +40,7 @@
           },
           "configurations": {
             "production": {
+              "localize": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -59,6 +66,12 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "de": {
+              "localize": ["de"]
+            },
+            "en": {
+              "localize": ["en"]
             }
           }
         },
@@ -70,6 +83,12 @@
           "configurations": {
             "production": {
               "browserTarget": "rive-test-project:build:production"
+            },
+            "de": {
+              "browserTarget": "rive-test-project:build:de"
+            },
+            "en": {
+              "browserTarget": "rive-test-project:build:en"
             }
           }
         },
