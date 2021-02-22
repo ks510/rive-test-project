@@ -2,30 +2,30 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template" target-language="de">
     <body>
-      <trans-unit id="be0c60bd0a60ee7ca35c6c61040d783aa9c6e2aa" datatype="html">
-        <source>Willkommen in Karen's Welt!</source><target state="new">Willkommen in Karen's Welt!</target>
+      <trans-unit id="6683479674c866575d6d1ea4545ac4dff6be6fa8" datatype="html">
+        <source>Welcome to Karen's World!</source><target state="translated">Willkommen in Karens Welt!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
         <note priority="1" from="description">Title</note>
-      </trans-unit>
-      <trans-unit id="64c564185e81516807b99395165b715c95ade0aa" datatype="html">
-        <source>Hallo, ich heiße Karen. Ich mag Apfelsaft und Orangensaft.</source><target state="new">Hallo, ich heiße Karen. Ich mag Apfelsaft und Orangensaft.</target>
+      </trans-unit><trans-unit id="7bfbfff4a7e12360d77573c3282bb70028d95b8f" datatype="html">
+        <source>Hello, my name is Karen. I like apple juice and orange juice.</source><target state="translated">Hallo, ich heiße Karen. Ich mag Apfelsaft und Orangensaft.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
         <note priority="1" from="description">Introduction</note>
-      </trans-unit>
-      <trans-unit id="118a664f7e3444f3be72e89feb75f9e3873b35fe" datatype="html">
-        <source>Ich liebe Chris Waschbär ❤️</source><target state="new">Ich liebe Chris Waschbär ❤️</target>
+      </trans-unit><trans-unit id="80de0b5f8bb5a4ae1de1cfda8fc3ecee20900e25" datatype="html">
+        <source>I love Chris Raccoon ❤️</source><target state="translated">Ich liebe Chris Waschbär ❤️</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">Love</note>
       </trans-unit>
+      
+      
     </body>
   </file>
 </xliff>

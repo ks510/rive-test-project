@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "extract-i18n": "ng xi18n rive-test-project --output-path src/locales && xliffmerge",
+    "extract-i18n": "ng extract-i18n rive-test-project --output-path src/locales && xliffmerge",
     "xliffmerge": "./node_modules/ngx-i18nsupport/dist/xliffmerge",
-    "translate-en": "poedit src/locales/messages.en.xlf"
+    "translate-de": "poedit src/locales/messages.de.xlf"
   },
   "xliffmergeOptions": {
     "srcDir": "src/locales",
