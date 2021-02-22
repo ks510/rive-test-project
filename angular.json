@@ -5,9 +5,9 @@
   "projects": {
     "rive-test-project": {
       "i18n": {
-        "sourceLocale": "de",
+        "sourceLocale": "en",
         "locales": {
-          "en": "src/locales/messages.en.xlf"
+          "de": "src/locales/messages.de.xlf"
         }
       },
       "projectType": "application",
@@ -67,11 +67,11 @@
                 }
               ]
             },
-            "de": {
-              "localize": ["de"]
-            },
             "en": {
               "localize": ["en"]
+            },
+            "de": {
+              "localize": ["de"]
             }
           }
         },
@@ -84,11 +84,11 @@
             "production": {
               "browserTarget": "rive-test-project:build:production"
             },
-            "de": {
-              "browserTarget": "rive-test-project:build:de"
-            },
             "en": {
               "browserTarget": "rive-test-project:build:en"
+            },
+            "de": {
+              "browserTarget": "rive-test-project:build:de"
             }
           }
         },
